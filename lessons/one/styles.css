@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    padding: 1rem;
+
+    nav {
+        position: absolute;
+        width: calc(100% - 2rem);
+        left: 0;
+        top: 0;
+        padding: 1rem;
+        border-bottom: 1px solid var(--dark-green);
+
+        a,
+        a:visited {
+            text-decoration: none;
+            color: var(--dark-green);
+        }
+
+        a:hover,
+        a:focus {
+            color: var(--light-green);
+        }
+
+    }
+
+    article { 
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+
+    }
+}
