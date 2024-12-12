@@ -1,0 +1,1 @@
+import{a,t as r}from"../chunks/disclose-version.CJ0vWn1o.js";import"../chunks/legacy.CTH8Nlud.js";var o=r('<article class="svelte-npgroe"><h2>Hypertext Markup Language</h2> <div class="content svelte-npgroe"></div></article>');function s(e){var t=o();a(e,t)}export{s as component};
